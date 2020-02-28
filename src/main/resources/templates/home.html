@@ -40,7 +40,13 @@
         </tr>
       </table>
     </div>
-  
+    
+    
+
+    <div class="footer-copyright text-center py-3">&copy; <span th:each="year : ${#dates.year(#dates.createNow())}" th:text="${year}"></span> Johns Hopkins University
+      <a href="https://github.com/CSSEGISandData/COVID-19" target="blank">https://github.com/CSSEGISandData/COVID-19</a>
+    </div>
+
   </body>
 
 </html>
